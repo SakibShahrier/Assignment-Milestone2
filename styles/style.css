@@ -1,3 +1,54 @@
 
 /* Google Fonts : Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 50px 140px 0px 140px;
+    align-items: flex-end;
+    color: white;
+    background-color: black;
+}
+
+.banner-summery{
+    margin: 111px 0px 111px 106px;
+}
+
+.banner-heading{
+    font-size: 70px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.banner-brief{
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.banner-watch{
+    padding: 16px 25px 16px 25px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.fa-play{
+    padding-left: 10px;
+}
+
+.banner img{
+    margin-right: 80px;
+    margin-left: 25px;
+    width: 90%;
+    height: 95%;
+}
