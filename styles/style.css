@@ -150,6 +150,33 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-bottom: 130px;
+}
+
+.blog{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-body{
+    padding: 20px 0px 20px 20px;
+}
+
+.dummy-button{
+    font-size: 16px;
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #161616;
+}
+
+.blog-title{
+    color: #161616;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .blog-activity{
@@ -159,11 +186,16 @@ main{
 .time-activity{
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .chat-activity{
     display: flex;
     align-items: center;
+}
+
+.activity{
+    padding-left: 10px;
 }
 
 
