@@ -36,7 +36,7 @@ body{
 
 .banner-watch{
     padding: 16px 25px 16px 25px;
-    background-color: red;
+    background-color: rgb(0, 98, 255);
     text-decoration: none;
     border-radius: 5px;
     color: white;
@@ -46,9 +46,29 @@ body{
     padding-left: 10px;
 }
 
+@keyframes animate {
+    0% {
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.50;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .banner img{
     margin-right: 80px;
     margin-left: 25px;
     width: 90%;
     height: 95%;
+    animation: animate 0.5s;
+    animation-iteration-count: infinite;
 }
