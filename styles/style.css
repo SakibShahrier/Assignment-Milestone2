@@ -269,6 +269,24 @@ hr{
     margin-right: 30px;
 }
 
+.social-media{
+    visibility: hidden;
+}
+
+.fa-facebook-f{
+    color: white;
+    padding: 20px;
+}
+
+.fa-twitter{
+    color: white;
+    padding: 20px;
+}
+
+.fa-linkedin{
+    color: white;
+    padding: 20px;
+}
 
 /* Responsiveness */
 
@@ -383,6 +401,13 @@ hr{
 
         .link{
             padding: 15px;
+        }
+
+        .social-media{
+            visibility: visible;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
         }
 
         .view-all{
