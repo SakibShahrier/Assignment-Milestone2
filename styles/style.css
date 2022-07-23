@@ -126,6 +126,10 @@ main{
     margin: 30px 30px 15px 30px;
 }
 
+.upcoming-button:hover{
+    color: rgb(0, 98, 255);
+}
+
 .all-group-button{
     padding: 17px 80px 17px 80px;
     font-size: 20px;
@@ -136,6 +140,10 @@ main{
     margin: 15px 30px 15px 30px;
 }
 
+.all-group-button:hover{
+    color: rgb(0, 98, 255);
+}
+
 .blog-button{
     padding: 17px 104px 17px 104px;
     font-size: 20px;
@@ -144,6 +152,11 @@ main{
     color: white;
     background-color: rgb(0, 98, 255);
     margin: 15px 30px 30px 30px;
+}
+
+.blog-button:hover{
+    background-color: white;
+    color: rgb(0, 98, 255);
 }
 
 /* Blogs Grid */
